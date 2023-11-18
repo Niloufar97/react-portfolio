@@ -1,7 +1,9 @@
+import Navigation from "../../components/navbar/myNavbar"
+
 function Projects() {
   return (
     <div>
-      <h1>projects page</h1>
+      <Navigation/>
     </div>
   )
 }
