@@ -1,8 +1,8 @@
-
+import Navigation from "../../components/navbar/myNavbar"
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <Navigation />
     </div>
   )
 }
