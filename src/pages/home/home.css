@@ -1,0 +1,11 @@
+.home-container{
+    height: 85vh;
+}
+.hero-img{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+.hero-txt{
+    font-family: poppins;
+}
