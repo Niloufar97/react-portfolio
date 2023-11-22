@@ -11,7 +11,7 @@ function Navigation() {
         <>
             <Navbar key={expand} expand={expand} className="myNav mb-3">
               <Container>
-                <Navbar.Brand href="#">Niloufar</Navbar.Brand>
+                <Navbar.Brand>Niloufar</Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${expand}`}
