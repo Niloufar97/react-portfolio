@@ -10,10 +10,10 @@ function Home() {
       <Navigation />
       <Container className="home-container">
         <Row>
-          <Col className="hero-img">
+          <Col className="hero-img" sm={12} lg={6}>
             <img src={HeroImg} alt="hero-img" className="img-fluid" />
           </Col>
-          <Col className="hero-txt">
+          <Col className="hero-txt" sm={12} lg={6}>
             <div className="heroText">
               <h4>Hi, I am</h4>
               <h1>Niloufar</h1>

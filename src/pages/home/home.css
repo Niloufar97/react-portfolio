@@ -1,5 +1,5 @@
 .home-container{
-    height: 85vh;
+    min-height: 85vh;
 }
 .hero-img{
     width: 100%;
