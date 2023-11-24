@@ -9,11 +9,8 @@ function Home() {
     <div>
       <Navigation />
       <Container className="home-container">
-        <Row className="mt-5">
-          <Col className="hero-img mt-3 mb-3" sm={12} lg={6}>
-            <img src={HeroImg} alt="hero-img" className="img-fluid" />
-          </Col>
-          <Col className="hero-txt mt-4" sm={12} lg={6}>
+        <Row className="my-5 align-items-center">
+          <Col className="hero-txt mt-4 mr-5" lg={6} >
             <div className="heroText">
               <h4>Hi, I am</h4>
               <h1>Niloufar</h1>
@@ -27,6 +24,9 @@ function Home() {
                 <button className="hero-btn">My Github</button>
               </a>
             </div>
+          </Col>
+          <Col className="hero-img mt-3 mb-3" lg={6} >
+            <img src={HeroImg} alt="hero-img" className="img-fluid" />
           </Col>
         </Row>
       </Container>
