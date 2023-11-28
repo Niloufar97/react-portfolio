@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import './projects.css'
 import Project from "../../components/myProjects/Project";
 import Navigation from "../../components/navbar/myNavbar";
 import todoImg from '../../assets/images/project-img/todoList.png'
@@ -24,7 +25,7 @@ function Projects() {
     }
   ];
   return (
-    <div>
+    <div className="projects-container">
       <Navigation />
       <Container>
         <Row>
