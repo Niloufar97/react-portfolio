@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navbar/myNavbar";
-import HeroImg from "../../assets/images/hero.svg";
-import cvPdf from "../../assets/cv/Niloufar.pdf"
+import heroImg from '../../assets/images/hero5.svg'
+import cvPdf from "../../assets/cv/Niloufar.pdf";
 import "./home.css";
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Navigation />
       <Container className="home-container">
         <Row className="my-5 align-items-center">
@@ -26,7 +26,7 @@ function Home() {
             </div>
           </Col>
           <Col className="hero-img mt-3 mb-3" lg={6} >
-            <img src={HeroImg} alt="hero-img" className="img-fluid" />
+            <img src={heroImg} alt="" className="img-fluid" />
           </Col>
         </Row>
       </Container>
