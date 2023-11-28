@@ -1,9 +1,10 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import './project.css'
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-function Project({img , title, tech}) {
+function Project({id, img , title, tech, github}) {
   const customBtnStyle = {
     backgroundColor : '#fdedb1',
     borderColor :'#ffecb2',
@@ -19,7 +20,12 @@ function Project({img , title, tech}) {
           <Card.Text>
             {tech}
           </Card.Text>
-          <Button style={customBtnStyle}>Read more</Button>
+          <Button   style={customBtnStyle}>
+            <Link className="card-btn" to={`/ProjectsInfo/${id}`}>Read more</Link>
+          </Button>
+          <Button className="mx-3" style={customBtnStyle}>
+            <Link className="card-btn" to={github} target="_blank">Source Code </Link>
+          </Button>
         </Card.Body>
       </Card>
     </div>
