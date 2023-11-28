@@ -1,4 +1,9 @@
- .home-container{
+.home{
+    background: url('../../assets/images/rm301-gift-01-c.jpg');
+    background-size: cover;
+    position: center center;
+}
+.home-container{
     min-height: 80vh;
 }
 .hero-txt{
@@ -22,7 +27,6 @@
     width: 10rem;
     height: 2.5rem;
     border-radius: 2rem;
-    background-color: #5CA1BF;
     border: none;
 }
 .hero-btn:hover{
