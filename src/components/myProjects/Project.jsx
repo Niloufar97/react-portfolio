@@ -1,11 +1,13 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import './project.css'
+
 // eslint-disable-next-line react/prop-types
 function Project({img , title}) {
   return (
-    <>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={img} />
+    <div className="my-5">
+      <Card style={{ width: "20rem", height:"30rem" }}>
+        <Card.Img variant="top" src={img} className="card-image" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>
@@ -15,7 +17,7 @@ function Project({img , title}) {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
-    </>
+    </div>
   );
 }
 
