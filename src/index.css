@@ -8,6 +8,7 @@
     src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 body{
-    background: linear-gradient( #fdf4d7, #f3e194 );
-    height: 100vh;
+    /* background: linear-gradient( #f6e8ae , #f8f5ea ); */
+    background-color:#f8f5ea ;
+    min-height: 100vh;
 }

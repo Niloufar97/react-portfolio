@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import './project.css'
 
 // eslint-disable-next-line react/prop-types
-function Project({img , title}) {
+function Project({img , title, tech}) {
   const customBtnStyle = {
     backgroundColor : '#fdedb1',
     borderColor :'#ffecb2',
@@ -12,13 +12,12 @@ function Project({img , title}) {
   }
   return (
     <div className="my-5">
-      <Card style={{ width: "20rem", height:"30rem" }}>
+      <Card style={{ width: "20rem", height:"28rem" }}>
         <Card.Img  src={img} className="card-image" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card content.
+            {tech}
           </Card.Text>
           <Button style={customBtnStyle}>Read more</Button>
         </Card.Body>
