@@ -8,13 +8,15 @@ function Home() {
   return (
     <div className="home">
       <Navigation />
-      <Container className="home-container">
+      <Container  className="home-container py-5">
         <Row className="my-5 align-items-center">
-          <Col className="hero-txt mt-4 mr-5" lg={6} >
+          <Col className="hero-txt " lg={6} >
             <div className="heroText">
-              <h4>Hi, I am</h4>
-              <h1>Niloufar</h1>
-              <h2>Junior React Developer</h2>
+              <div className="hero-title">
+                <h2>Hello I am,</h2>
+                <h1>Niloufar</h1>
+              </div>
+              <h2>Junior Frontend Developer</h2>
             </div>
             <div className="heroButtons ">
               <a href={cvPdf} target="_blank" rel="noopener noreferrer" >
@@ -25,7 +27,7 @@ function Home() {
               </a>
             </div>
           </Col>
-          <Col className="hero-img mt-3 mb-3" lg={6} >
+          <Col lg={6} >
             <img src={heroImg} alt="" className="img-fluid" />
           </Col>
         </Row>
