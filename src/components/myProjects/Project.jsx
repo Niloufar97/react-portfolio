@@ -8,7 +8,7 @@ import AnimatedButton from "../animatedButton/AnimatedButton";
 function Project({id, img , title, tech, github}) {
   return (
     <div className="my-5">
-      <Card style={{ width: "20rem", height:"28rem" }}>
+      <Card style={{ width: "20rem", height:"28rem" }} className="mx-auto">
         <Card.Img  src={img} className="card-image" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>

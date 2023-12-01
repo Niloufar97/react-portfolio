@@ -12,8 +12,8 @@ function Projects() {
         <p>explore some of</p>
         <h2>My Projects</h2>
       </div>
-      <Container>
-        <Row>
+      <Container className="justify-content-center">
+        <Row className="text-center">
           {myProjects.map((project) => (
             <Col key={project.id} md={6} lg={4}>
               <Project {...project} />
