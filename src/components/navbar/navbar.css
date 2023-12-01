@@ -1,7 +1,16 @@
 .myNav{
     background-color: #534da2;
+}
+.myNav .navbar-brand{
     color: white;
 }
-.nav-link.active{
-    border-bottom: 2px solid black;
+.myNav .nav-link{
+    color: #fff;
+}
+.myNav .navbar-nav .nav-link.active {
+    color: #fff ;
+    border-bottom: 2px solid white;
+}
+.myNav .navbar-nav .nav-link:hover{
+    color: #fff;
 }
