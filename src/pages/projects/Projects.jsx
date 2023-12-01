@@ -3,10 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import Project from "../../components/myProjects/Project";
 import Navigation from "../../components/navbar/myNavbar";
 import { ProjectsData } from "./projectsData";
-import { useState } from "react";
-
 function Projects() {
-  const [myProjects, setMyProjects] = useState(ProjectsData);
+  const myProjects = ProjectsData
   return (
     <div className="projects-container">
       <Navigation />
