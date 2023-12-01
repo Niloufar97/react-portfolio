@@ -1,0 +1,12 @@
+.about-img-container{
+    margin: 0 auto;
+}
+.about-img-container img{
+    width: 26rem;
+    height: 26rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px #6a669d;
+}
+.about-me-text p{
+    text-align: justify;
+}
