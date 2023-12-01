@@ -1,0 +1,8 @@
+.proImg-container img{
+    width: 35rem;
+    height: 30rem;
+    border-radius: 5rem;
+}
+.description-text{
+    text-align: justify;
+}
