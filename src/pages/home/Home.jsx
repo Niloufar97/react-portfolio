@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navbar/myNavbar";
-import heroImg from '../../assets/images/hero5.svg'
+import heroImg from '../../assets/images/hero.svg'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
 import "./home.css";
 function Home() {

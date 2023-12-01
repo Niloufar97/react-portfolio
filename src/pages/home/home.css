@@ -1,8 +1,4 @@
-.home{
-    background: url('../../assets/images/rm301-gift-01-c.jpg');
-    background-size: cover;
-    position: center center;
-}
+
 .home-container{
     min-height: 80vh;
 }
