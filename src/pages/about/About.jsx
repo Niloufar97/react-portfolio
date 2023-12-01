@@ -2,12 +2,22 @@ import Navigation from "../../components/navbar/myNavbar";
 import { Row, Col, Container } from "react-bootstrap";
 import NiloufarImg from "../../assets/images/Niloufar.png";
 import "./about.css";
-
+import { motion } from "framer-motion";
+const containerVariant = {
+  hidden: {
+    x:'600px'
+  },
+  visible : {
+    x : 0,
+    transition :{duration: 0.4, ease : 'easeInOut'}
+  }
+}
 function About() {
   return (
     <div>
       <Navigation />
       <Container>
+        <motion.div variants={containerVariant} initial="hidden" animate="visible">
         <section className="about-me">
           <Row className="pt-4">
             <div className="pageTitle">
@@ -45,6 +55,7 @@ function About() {
           </Row>
         </section>
         <Row></Row>
+        </motion.div>
       </Container>
     </div>
   );

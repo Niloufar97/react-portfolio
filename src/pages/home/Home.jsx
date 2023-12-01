@@ -5,14 +5,26 @@ import heroImg from '../../assets/images/hero.svg'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
 import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
+import { motion } from "framer-motion";
+const containerVariant = {
+  hidden: {
+    x:'600px'
+  },
+  visible : {
+    x : 0,
+    transition :{duration: 0.4, ease : 'easeInOut'}
+  }
+}
+
 function Home() {
   return (
     <div className="home">
       <Navigation />
       <Container  className="home-container py-5">
+        <motion.div variants={containerVariant} initial="hidden" animate="visible">
         <Row className="my-5 align-items-center">
           <Col className="hero-txt " lg={6} >
-            <div className="heroText">
+            <div className="heroText" >
               <div className="hero-title">
                 <h2>Hello I am,</h2>
                 <h1>Niloufar</h1>
@@ -32,6 +44,7 @@ function Home() {
             <img src={heroImg} alt="" className="img-fluid" />
           </Col>
         </Row>
+        </motion.div>
       </Container>
       <Footer />
     </div>
