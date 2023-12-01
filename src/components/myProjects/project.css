@@ -3,12 +3,12 @@
     height: 15rem;
 }
 .projectCard-btn{
-    background-color: #6662a0;
+    background-color: #6561a7;
     color: #fff;
     width: 7rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     margin-right: 1rem;
     margin-top: 1.5rem;
-    height: 2rem;
+    height: 2.5rem;
     border:none;
 }
