@@ -3,6 +3,7 @@ import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navbar/myNavbar";
 import heroImg from '../../assets/images/hero.svg'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
+import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
 function Home() {
   return (
@@ -18,10 +19,10 @@ function Home() {
             </div>
             <div className="heroButtons ">
               <a href={cvPdf} target="_blank" rel="noopener noreferrer" >
-                <button className="hero-btn ml-3">Download CV</button>
+                <AnimatedButton color="#534da2"  text="Download CV" className="hero-btn" />
               </a>
               <a href="https://github.com/Niloufar97" target="_blank" rel="noopener noreferrer">
-                <button className="hero-btn">My Github</button>
+              <AnimatedButton color="#534da2"  text="My Github" className="hero-btn" />   
               </a>
             </div>
           </Col>
