@@ -6,14 +6,18 @@ import { ProjectsData } from "./projectsData";
 import { useState } from "react";
 
 function Projects() {
-  const [myProjects , setMyProjects] = useState(ProjectsData);
+  const [myProjects, setMyProjects] = useState(ProjectsData);
   return (
     <div className="projects-container">
       <Navigation />
-      <Container className="ps-container" >
-        <Row >
+      <div className="pageTitle">
+        <p>explore some of</p>
+        <h2>My Projects</h2>
+      </div>
+      <Container>
+        <Row>
           {myProjects.map((project) => (
-            <Col key={project.id}  md={6} lg={4} >
+            <Col key={project.id} md={6} lg={4}>
               <Project {...project} />
             </Col>
           ))}
