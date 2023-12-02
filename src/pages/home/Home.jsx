@@ -5,7 +5,6 @@ import heroImg from '../../assets/images/hero.svg'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
 import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
-import { motion } from "framer-motion";
 // const containerVariant = {
 //   hidden: {
 //     y:'1000px'
