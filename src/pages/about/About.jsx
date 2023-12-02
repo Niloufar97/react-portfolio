@@ -5,10 +5,10 @@ import "./about.css";
 import { motion } from "framer-motion";
 const containerVariant = {
   hidden: {
-    x:'600px'
+    y:'600px'
   },
   visible : {
-    x : 0,
+    y : 0,
     transition :{duration: 0.4, ease : 'easeInOut'}
   }
 }

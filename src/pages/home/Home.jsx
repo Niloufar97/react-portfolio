@@ -6,22 +6,22 @@ import cvPdf from "../../assets/cv/Niloufar.pdf";
 import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
 import { motion } from "framer-motion";
-const containerVariant = {
-  hidden: {
-    x:'600px'
-  },
-  visible : {
-    x : 0,
-    transition :{duration: 0.4, ease : 'easeInOut'}
-  }
-}
+// const containerVariant = {
+//   hidden: {
+//     y:'1000px'
+//   },
+//   visible : {
+//     y : 0,
+//     transition :{duration: 0.7, ease : 'easeInOut'}
+//   }
+// }
 
 function Home() {
   return (
     <div className="home">
       <Navigation />
       <Container  className="home-container py-5">
-        <motion.div variants={containerVariant} initial="hidden" animate="visible">
+        <div>
         <Row className="my-5 align-items-center">
           <Col className="hero-txt " lg={6} >
             <div className="heroText" >
@@ -31,7 +31,7 @@ function Home() {
               </div>
               <h2>Junior Frontend Developer</h2>
             </div>
-            <div className="heroButtons ">
+            <div className="heroButtons " >
               <a href={cvPdf} target="_blank" rel="noopener noreferrer" >
                 <AnimatedButton color="#534da2"  text="Download CV" className="hero-btn" />
               </a>
@@ -44,7 +44,7 @@ function Home() {
             <img src={heroImg} alt="" className="img-fluid" />
           </Col>
         </Row>
-        </motion.div>
+        </div>
       </Container>
       <Footer />
     </div>
