@@ -1,16 +1,15 @@
 import { Col, Container, Row } from "react-bootstrap";
-// import './projects.css'
 import Project from "../../components/myProjects/Project";
 import Navigation from "../../components/navbar/myNavbar";
 import { ProjectsData } from "./projectsData";
 import { motion } from "framer-motion";
 const containerVariant = {
   hidden: {
-    x: "600px",
+    y: "600px",
   },
   visible: {
-    x: 0,
-    transition: { duration: 0.4, ease: "easeInOut" },
+    y: 0,
+    transition: { duration: 1, ease: "easeInOut" },
   },
 };
 function Projects() {
