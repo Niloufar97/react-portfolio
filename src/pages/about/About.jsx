@@ -3,6 +3,20 @@ import { Row, Col, Container } from "react-bootstrap";
 import NiloufarImg from "../../assets/images/Niloufar.png";
 import "./about.css";
 import { EducationsInfo } from "./EducationsInfo";
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
+const rowVariant = {
+  initial: { y: -30, opacity: 0 },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+    },
+  },
+};
+
 function About() {
   return (
     <div>
@@ -20,10 +34,10 @@ function About() {
               className="about-img-container d-flex justify-content-center"
               md={6}
             >
-              <img src={NiloufarImg} className="img-fluid"></img>
+              <img src={NiloufarImg} className="img-fluid" alt="Niloufar"></img>
             </Col>
             <Col className="about-me-text" md={6}>
-              <p className="pt-5">
+            <p className="pt-5">
                 In early 2023, I dove headfirst into the world of frontend
                 development, getting all excited about making cool websites. I
                 started off by teaching myself HTML and CSS, the building blocks
@@ -47,22 +61,45 @@ function About() {
         <div className="pageTitle my-5">
           <h2>My Education</h2>
         </div>
-        <section className="my-education ">
-          {EducationsInfo.map((education) => (
-            <Row className="my-4 align-items-center justify-content-center" key={education.id}>
-              <Col md={3} className="img-container">
-                <img src={education.img}></img>
-              </Col>
-              <Col md={8} className="">
-                <div className="education-text">
-                  <h3><a href={education.link} target="_blank" rel="noreferrer">{education.title}</a></h3>
-                  <h4>{education.course}</h4>
-                  <p>{education.desc}</p>
-                </div>
-              </Col>
-            </Row>
-          ))}
-        </section>
+        <motion.section className="my-education">
+          {EducationsInfo.map((education) => {
+            // eslint-disable-next-line react-hooks/rules-of-hooks
+            const [ref, inView] = useInView({
+              triggerOnce: false,
+            });
+
+            return (
+              <motion.div
+                key={education.id}
+                variants={rowVariant}
+                initial="initial"
+                animate={inView ? "animate" : "initial"}
+                ref={ref}
+              >
+                <Row className="my-4 align-items-center justify-content-center">
+                  <Col md={3} className="img-container">
+                    <img src={education.img} alt={education.title} />
+                  </Col>
+                  <Col md={8} className="">
+                    <div className="education-text">
+                      <h3>
+                        <a
+                          href={education.link}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {education.title}
+                        </a>
+                      </h3>
+                      <h4>{education.course}</h4>
+                      <p>{education.desc}</p>
+                    </div>
+                  </Col>
+                </Row>
+              </motion.div>
+            );
+          })}
+        </motion.section>
       </Container>
     </div>
   );
