@@ -1,6 +1,6 @@
 import Navigation from "../../components/navbar/myNavbar";
 import { Row, Col, Container } from "react-bootstrap";
-import NiloufarImg from "../../assets/images/Niloufar.png";
+import heroImg from "../../assets/images/hero.svg";
 import "./about.css";
 import { EducationsInfo } from "./EducationsInfo";
 import { motion } from 'framer-motion';
@@ -34,7 +34,7 @@ function About() {
               className="about-img-container d-flex justify-content-center"
               md={6}
             >
-              <img src={NiloufarImg} className="img-fluid" alt="Niloufar"></img>
+              <img src={heroImg} className="img-fluid" alt="Niloufar"></img>
             </Col>
             <Col className="about-me-text" md={6}>
             <p className="pt-5">

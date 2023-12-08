@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navbar/myNavbar";
-import heroImg from '../../assets/images/hero.svg'
+import NiloufarImg from '../../assets/images/Niloufar.png'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
 import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
@@ -21,7 +21,7 @@ function Home() {
       <Navigation />
       <Container  className="home-container py-5">
         <div>
-        <Row className="my-5 align-items-center">
+        <Row className="my-5 align-items-center justify-content-center">
           <Col className="hero-txt " lg={6} >
             <div className="heroText" >
               <div className="hero-title">
@@ -39,8 +39,8 @@ function Home() {
               </a>
             </div>
           </Col>
-          <Col lg={6} >
-            <img src={heroImg} alt="" className="img-fluid" />
+          <Col lg={6} className="hero-img">
+            <img src={NiloufarImg} alt="" className="img-fluid" />
           </Col>
         </Row>
         </div>
