@@ -5,22 +5,25 @@ import NiloufarImg from '../../assets/images/Niloufar.png'
 import cvPdf from "../../assets/cv/Niloufar.pdf";
 import AnimatedButton from "../../components/animatedButton/AnimatedButton";
 import "./home.css";
-// const containerVariant = {
-//   hidden: {
-//     y:'1000px'
-//   },
-//   visible : {
-//     y : 0,
-//     transition :{duration: 0.7, ease : 'easeInOut'}
-//   }
-// }
+import {motion} from 'framer-motion'
+const containerVariant = {
+  hidden: {
+    opacity:0 ,
+    y: "30px"
+  },
+  visible : {
+    opacity:1 ,
+    y:0,
+    transition :{duration: 1, ease : 'easeInOut' , delay : 0.2}
+  }
+}
 
 function Home() {
   return (
     <div className="home">
       <Navigation />
       <Container  className="home-container py-5">
-        <div>
+        <motion.div variants={containerVariant} initial="hidden" animate='visible'>
         <Row className="my-5 align-items-center justify-content-center">
           <Col className="hero-txt " lg={6} >
             <div className="heroText" >
@@ -43,7 +46,7 @@ function Home() {
             <img src={NiloufarImg} alt="" className="img-fluid" />
           </Col>
         </Row>
-        </div>
+        </motion.div>
       </Container>
       <Footer />
     </div>
