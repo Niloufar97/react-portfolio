@@ -39,3 +39,6 @@
 .education-text p {
     text-align: justify; 
 }
+.skills-row{
+    min-height: 70vh;
+}

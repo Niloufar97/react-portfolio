@@ -5,6 +5,7 @@ import "./about.css";
 import { EducationsInfo } from "./EducationsInfo";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Skill from "../../components/skills/skill";
 
 const rowVariant = {
   initial: { y: -30, opacity: 0 },
@@ -61,7 +62,7 @@ function About() {
           </motion.div>
           {/* education----------------------------------------------------------------------------------------------- */}
         </section>
-        <div className="pageTitle my-5">
+        <div className="pageTitle ">
           <h2>My Education</h2>
         </div>
         <motion.section className="my-education">
@@ -108,12 +109,17 @@ function About() {
         {/* skills----------------------------------------------------------------------------------------------- */}
       <section>
         <Row className="pt-4">
-          <div className="pageTitle">
+          <div className="pageTitle mt-5">
             <h2>My Skills</h2>
           </div>
         </Row>
-        <Row>
-          
+        <Row className="my-5 skills-row">
+          <Skill tech='HTML' percentage={70}></Skill>
+          <Skill tech='CSS' percentage={65}></Skill>
+          <Skill tech='Bootstrap' percentage={70}></Skill>
+          <Skill tech='Javascript' percentage={60}></Skill>
+          <Skill tech='React' percentage={60}></Skill>
+          <Skill tech='Git' percentage={70}></Skill>
         </Row>
       </section>
     </div>
