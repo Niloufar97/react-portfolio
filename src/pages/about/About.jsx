@@ -3,8 +3,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import heroImg from "../../assets/images/hero.svg";
 import "./about.css";
 import { EducationsInfo } from "./EducationsInfo";
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const rowVariant = {
   initial: { y: -30, opacity: 0 },
@@ -29,34 +29,37 @@ function About() {
               <h2>About Me</h2>
             </div>
           </Row>
-          <Row className="align-items-center my-5">
-            <Col
-              className="about-img-container d-flex justify-content-center"
-              md={6}
-            >
-              <img src={heroImg} className="img-fluid" alt="Niloufar"></img>
-            </Col>
-            <Col className="about-me-text" md={6}>
-            <p className="pt-5">
-                In early 2023, I dove headfirst into the world of frontend
-                development, getting all excited about making cool websites. I
-                started off by teaching myself HTML and CSS, the building blocks
-                of the web. But I wanted more, so I signed up for a JavaScript
-                course at ReDi School to really understand how to make
-                interactive and snazzy web designs.
-              </p>
-              <p>
-                I did not stop there; my hunger for learning led me to take a
-                React course. That was when things got even more interesting, I
-                was now crafting dynamic and responsive user interfaces like a
-                champ. Fast forward to October 2023, and guess what? I joined
-                Hack Your Future, a big move in my journey to becoming a pro
-                frontend developer. It is like the changing leaves in fall,
-                marking a significant step forward in my development adventure.
-                Super stoked about where this journey is taking me!
-              </p>
-            </Col>
-          </Row>
+          <motion.div variants={rowVariant} initial="initial" animate="animate">
+            <Row className="align-items-center my-2">
+              <Col
+                className="about-img-container d-flex justify-content-center"
+                md={6}
+              >
+                <img src={heroImg} className="img-fluid" alt="Niloufar"></img>
+              </Col>
+              <Col className="about-me-text" md={6}>
+                <p className="pt-5">
+                  In early 2023, I dove headfirst into the world of frontend
+                  development, getting all excited about making cool websites. I
+                  started off by teaching myself HTML and CSS, the building
+                  blocks of the web. But I wanted more, so I signed up for a
+                  JavaScript course at ReDi School to really understand how to
+                  make interactive and snazzy web designs.
+                </p>
+                <p>
+                  I did not stop there; my hunger for learning led me to take a
+                  React course. That was when things got even more interesting,
+                  I was now crafting dynamic and responsive user interfaces like
+                  a champ. Fast forward to October 2023, and guess what? I
+                  joined Hack Your Future, a big move in my journey to becoming
+                  a pro frontend developer. It is like the changing leaves in
+                  fall, marking a significant step forward in my development
+                  adventure. Super stoked about where this journey is taking me!
+                </p>
+              </Col>
+            </Row>
+          </motion.div>
+          {/* education----------------------------------------------------------------------------------------------- */}
         </section>
         <div className="pageTitle my-5">
           <h2>My Education</h2>
@@ -100,7 +103,19 @@ function About() {
             );
           })}
         </motion.section>
+        <section className="skillbar"></section>
       </Container>
+        {/* skills----------------------------------------------------------------------------------------------- */}
+      <section>
+        <Row className="pt-4">
+          <div className="pageTitle">
+            <h2>My Skills</h2>
+          </div>
+        </Row>
+        <Row>
+          
+        </Row>
+      </section>
     </div>
   );
 }

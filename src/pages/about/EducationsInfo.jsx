@@ -7,7 +7,7 @@ export const EducationsInfo = [
         title: "Hack Your Future",
         img: HYFImg,
         course : "eight month tech-Education",
-        desc: "HackYourFuture revolutionizes web development education by seamlessly integrating self-directed learning, industry mentorship, and a dedicated 30-hour weekly commitment, guiding participants on an empowering journey through the ever-evolving tech landscape.",
+        desc: "Hack Your Future Denmark is a cool initiative helping folks break into the world of coding. They're all about empowering people through free coding education, creating a tight-knit community of future tech wizards! 🚀💻",
         link:'https://www.hackyourfuture.dk/'
     },
     {
@@ -15,7 +15,7 @@ export const EducationsInfo = [
         title: "ReDi-School",
         img: RediImg,
         course: "Javascript and React course",
-        desc: "ReDI School is more than an academic institution—it's a dynamic hub for mastering full-stack web development through self-directed learning, with a 30-hour weekly commitment and hands-on workshops. Participants lead their education, exploring cutting-edge tools and frameworks within real-world development teams for a unique and empowering journey.",
+        desc: "At ReDi School, it's not just about coding; it's a vibrant community where learning feels like hanging out with friends who share the same love for tech. With hands-on projects, inspiring mentors, and a sprinkle of fun, ReDi turns the daunting world of programming into an exciting journey of growth and camaraderie.🌐💡",
         link: 'https://www.redi-school.org/redi-school-aarhus'
     },
     {
