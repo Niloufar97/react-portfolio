@@ -1,7 +1,7 @@
 import todoImg from '../../assets/images/project-img/todoList.png'
 import portfolioImg from '../../assets/images/project-img/portfolio2.png'
 import kaospilotImg from '../../assets/images/project-img/kaospilot-toolbox.png'
-import calculatorImg from '../../assets/images/project-img/Calculator4.png'
+import calculatorImg from '../../assets/images/project-img/Calculator5.png'
 import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
 export const ProjectsData = [   
@@ -12,7 +12,7 @@ export const ProjectsData = [
         tech : "HTML, CSS , Javascript ,React",
         github: "https://github.com/Niloufar97/Kraftvaerk-project",
         date: "Dec 2023",
-        desc: "For the culmination of the JavaScript course at ReDi-School, I collaborated with a dynamic team of 12 individuals to create the Kaospilot-toolbox. This multifaceted project not only deepened our understanding of JavaScript but also provided invaluable lessons in teamwork and collaborative development. From mastering the intricacies of JavaScript to honing effective communication within a group setting, the project served as a nexus of technical and interpersonal growth. Additionally, the experience of utilizing Git and GitHub for version control added a crucial layer of real-world application to our skill set. The Kaospilot-toolbox is a testament to our collective efforts, showcasing not only our JavaScript proficiency but also our ability to navigate the complexities of collaborative development and version control systems."
+        desc: "During our time working with Kraftvaerk, our team tackled the task of moving a crucial part of their website from Angular to React.js. Kraftvaerk, currently using an Angular-based site, wanted to make the shift to React.js. Our specific role was to kickstart this transition by focusing on the basics, particularly building the SST (presumably Single Page Application) page. This project gave us the opportunity to explore the ins and outs of React.js and play a role in the early phases of Kraftvaerk's migration to a new technology. As a contributor, my responsibility was to create the SST Execute page and establish the fundamental routes, laying the foundation for the broader migration effort."
       },
       {
         id: 2,
