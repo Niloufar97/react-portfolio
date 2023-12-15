@@ -3,11 +3,19 @@ import portfolioImg from '../../assets/images/project-img/portfolio2.png'
 import kaospilotImg from '../../assets/images/project-img/kaospilot-toolbox.png'
 import calculatorImg from '../../assets/images/project-img/Calculator4.png'
 import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
-export const ProjectsData = [
-    
-      
+import KraftvaerkImg from '../../assets/images/project-img/flown.png'
+export const ProjectsData = [   
       {
         id: 1,
+        title: "Kraftvaerk-project",
+        img: KraftvaerkImg,
+        tech : "HTML, CSS , Javascript ,React",
+        github: "https://github.com/Niloufar97/Kraftvaerk-project",
+        date: "Dec 2023",
+        desc: "For the culmination of the JavaScript course at ReDi-School, I collaborated with a dynamic team of 12 individuals to create the Kaospilot-toolbox. This multifaceted project not only deepened our understanding of JavaScript but also provided invaluable lessons in teamwork and collaborative development. From mastering the intricacies of JavaScript to honing effective communication within a group setting, the project served as a nexus of technical and interpersonal growth. Additionally, the experience of utilizing Git and GitHub for version control added a crucial layer of real-world application to our skill set. The Kaospilot-toolbox is a testament to our collective efforts, showcasing not only our JavaScript proficiency but also our ability to navigate the complexities of collaborative development and version control systems."
+      },
+      {
+        id: 2,
         title: "Kaospilot-toolbox",
         img: kaospilotImg,
         tech : "HTML, CSS , Javascript",
@@ -16,7 +24,7 @@ export const ProjectsData = [
         desc: "For the culmination of the JavaScript course at ReDi-School, I collaborated with a dynamic team of 12 individuals to create the Kaospilot-toolbox. This multifaceted project not only deepened our understanding of JavaScript but also provided invaluable lessons in teamwork and collaborative development. From mastering the intricacies of JavaScript to honing effective communication within a group setting, the project served as a nexus of technical and interpersonal growth. Additionally, the experience of utilizing Git and GitHub for version control added a crucial layer of real-world application to our skill set. The Kaospilot-toolbox is a testament to our collective efforts, showcasing not only our JavaScript proficiency but also our ability to navigate the complexities of collaborative development and version control systems."
       },
       {
-        id: 2,
+        id: 3,
         title: "Portfolio",
         img: portfolioImg,
         tech: "HTML, CSS",
@@ -26,7 +34,7 @@ export const ProjectsData = [
 
       },
       {
-        id: 3,
+        id: 4,
         title: "Todo List",
         img: todoImg,
         tech : "HTML, CSS , Javascript",
@@ -35,7 +43,7 @@ export const ProjectsData = [
         desc:"During the JavaScript semester at ReDi-School, I undertook the task of creating a To-Do List application as a homework assignment. This project proved instrumental in enhancing my proficiency with JavaScript, particularly in manipulating the Document Object Model (DOM) and utilizing local storage. Through dynamic updates and event handling, I honed my skills in creating an interactive and user-friendly task management tool. Leveraging local storage not only added persistence to user data but also deepened my understanding of building robust web applications. This project marked a significant milestone in my JavaScript journey, showcasing practical application of acquired knowledge and setting the stage for further exploration in web development."
       },
       {
-        id: 4,
+        id: 5,
         title: "Shopping Card",
         img: shoppingCardImg,
         tech : "HTML, CSS , Javascript",
@@ -45,7 +53,7 @@ export const ProjectsData = [
 
       },
       {
-        id: 5,
+        id: 6,
         title: "Calculator App",
         img: calculatorImg,
         tech : "React.js, ES6",
