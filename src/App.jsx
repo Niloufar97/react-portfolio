@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Projects from './pages/projects/Projects'
-import ProjectInfo from './components/projectInfo/ProjectInfo'
+import ProjectInfo from './pages/projectInfo/ProjectInfo'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
