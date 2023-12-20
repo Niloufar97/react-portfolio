@@ -5,7 +5,7 @@ import "./about.css";
 import { EducationsInfo } from "./EducationsInfo";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Skill from "../../components/skills/skill";
+import Skill from "../../components/skills/Skill";
 
 const rowVariant = {
   initial: { y: -30, opacity: 0 },
