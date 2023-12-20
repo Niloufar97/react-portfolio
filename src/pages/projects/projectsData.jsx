@@ -1,7 +1,7 @@
 import todoImg from '../../assets/images/project-img/todoList.png'
 import portfolioImg from '../../assets/images/project-img/portfolio2.png'
 import kaospilotImg from '../../assets/images/project-img/kaospilot-toolbox.png'
-import calculatorImg from '../../assets/images/project-img/Calculator5.png'
+import calculatorImg from '../../assets/images/project-img/calculator5.png'
 import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
 export const ProjectsData = [   
