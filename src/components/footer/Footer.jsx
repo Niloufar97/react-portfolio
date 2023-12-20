@@ -9,8 +9,8 @@ import { Col, Row } from "react-bootstrap";
 function Footer() {
   return (
     <div className="footer-container">
-      <Row>
-        <Col md={6}>
+      <Row className="footer-row ">
+        <Col md={6} className="social-media">
         <h4>Contact Me:</h4>
         <div className="social-media">
           <a
@@ -31,6 +31,7 @@ function Footer() {
         </div>
         </Col>
         <Col md={6}>
+          
             <div className="address">
               <img src={homeImg}></img>
               <p>Aarhus, skejbyparken</p>

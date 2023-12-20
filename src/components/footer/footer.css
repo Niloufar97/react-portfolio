@@ -1,3 +1,35 @@
 .footer-container{
-    height: 50px;
+    background-color: #534DA2;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-row{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.social-media a{
+    text-decoration: none;
+    color: black;
+}
+.social-media span{
+    margin-left: 1rem;
+}
+.address ,.phone ,.eamil{
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    margin-top: 0.1rem;
+}
+.address{
+    margin-top: 1.5rem;
 }
