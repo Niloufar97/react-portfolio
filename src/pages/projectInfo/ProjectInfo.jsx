@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { ProjectsData } from "../../../pages/projects/projectsData";
-import Navigation from "../../navbar/myNavbar";
+import { ProjectsData } from "../projects/projectsData";
+import Navigation from "../../components/navbar/myNavbar";
 import { Col, Container, Row } from "react-bootstrap";
 import "./ProjectInfo.css";
 
