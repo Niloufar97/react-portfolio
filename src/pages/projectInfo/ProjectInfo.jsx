@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { ProjectsData } from "../projects/projectsData";
 import Navigation from "../../components/navbar/myNavbar";
 import { Col, Container, Row } from "react-bootstrap";
-import "./ProjectInfo.css";
+import "./projectInfo.css";
 
 function ProjectInfo() {
   const projectId = parseInt(useParams().projectId);
