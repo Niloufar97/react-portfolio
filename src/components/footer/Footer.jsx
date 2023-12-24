@@ -30,7 +30,7 @@ function Footer() {
           </a>
         </div>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="contact-info">
           
             <div className="address">
               <img src={homeImg}></img>
