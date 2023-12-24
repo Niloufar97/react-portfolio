@@ -42,7 +42,7 @@ function Home() {
               </a>
             </div>
           </Col>
-          <Col lg={6} className="hero-img">
+          <Col lg={6} className="hero-img mt-3">
             <img src={NiloufarImg} alt="" className="img-fluid" />
           </Col>
         </Row>
