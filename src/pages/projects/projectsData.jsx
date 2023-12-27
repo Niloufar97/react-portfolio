@@ -4,7 +4,7 @@ import kaospilotImg from '../../assets/images/project-img/kaospilot-toolbox.png'
 import calculatorImg from '../../assets/images/project-img/calculator5.png'
 import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
-import RecipeAppImg from '../../assets/images/project-img/Recipe.png'
+import RecipeAppImg from '../../assets/images/project-img/recipe.png'
 export const ProjectsData = [   
       {
         id: 1,
