@@ -39,6 +39,10 @@
 .education-text p {
     text-align: justify; 
 }
+/* skills */
+.my-skills{
+    overflow-x: hidden;
+}
 .skills-row{
     min-height: 70vh;
 }

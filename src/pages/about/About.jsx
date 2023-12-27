@@ -107,7 +107,7 @@ function About() {
         <section className="skillbar"></section>
       </Container>
         {/* skills----------------------------------------------------------------------------------------------- */}
-      <section>
+      <section className="my-skills">
         <Row className="pt-4">
           <div className="pageTitle mt-5">
             <h2>My Skills</h2>
