@@ -17,7 +17,7 @@ function ProjectInfo() {
           <Col className="proImg-container" md={6}>
             <img src={projectInformation.img} className="img-fluid"></img>
           </Col>
-          <Col>
+          <Col className="my-5 mx-3">
             <h2>{projectInformation.title}</h2>
             <h4>technologies used in this project:</h4>
             <p>{projectInformation.tech}</p>
