@@ -5,6 +5,7 @@ import calculatorImg from '../../assets/images/project-img/calculator5.png'
 import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
 import RecipeAppImg from '../../assets/images/project-img/recipe.png'
+import MemoryGameImg from '../../assets/images/project-img/memoryGame.png'
 export const ProjectsData = [   
       {
         id: 1,
@@ -17,6 +18,15 @@ export const ProjectsData = [
       },
       {
         id: 2,
+        title: "Memory Game" ,
+        img: MemoryGameImg,
+        tech : "HTML, CSS , Javascript",
+        github: "https://thriving-cendol-8adfa8.netlify.app",
+        date: "Jan 2024",
+        desc: "I just wrapped up this awesome memory game for my Hack Your Future project using HTML, CSS, and JavaScript. It's a slick, responsive game with two levels of difficulty that I whipped up after a 10-week JavaScript journey. We dived into DOM manipulation, arrays, array methods, and even got our hands dirty with APIs.This little gem is all mine, a cool way to cap off my coding journey. Give it a whirl! 🚀🃏"
+      },
+      {
+        id: 3,
         title: "Recipe App",
         img: RecipeAppImg,
         tech : "HTML, CSS , Javascript",
@@ -24,6 +34,7 @@ export const ProjectsData = [
         date: "Dec 2023",
         desc: "Join me on a foodie journey with the recipe app I whipped up during the Hack Your Future course. I made it super easy to find yummy recipes by pulling info from JSON files. Each dish comes with a cool pop-up that spills the beans on what you need and how to make it. Want pasta or salad? No prob – just use the filters. And if you're on a hunt for a specific recipe, the search tool's got your back. Best part? You can add your own recipes and be part of the foodie gang. Forget boring cookbooks – this app makes cooking fun and simple! 🍳📱"
       },
+
       {
         id: 3,
         title: "Kaospilot-toolbox",
