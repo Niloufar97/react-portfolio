@@ -15,7 +15,7 @@ function Project({id, img , title, tech, github}) {
             {tech}
           </Card.Text>          
             <Link className="card-btn" to={`/ProjectsInfo/${id}`}><AnimatedButton text="Read more" className="projectCard-btn"/></Link>
-            <Link className="card-btn" to={github} target="_blank"><AnimatedButton text="Source Code" className="projectCard-btn"/></Link>        
+            <Link className="card-btn" to={github} target="_blank"><AnimatedButton text="Code/Demo" className="projectCard-btn"/></Link>        
         </Card.Body>
       </Card>
     </div>
