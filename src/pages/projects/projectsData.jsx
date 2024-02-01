@@ -23,7 +23,7 @@ export const ProjectsData = [
         tech : "HTML, CSS , Javascript",
         github: "https://thriving-cendol-8adfa8.netlify.app",
         date: "Jan 2024",
-        desc: "I just wrapped up this awesome memory game for my Hack Your Future project using HTML, CSS, and JavaScript. It's a slick, responsive game with two levels of difficulty that I whipped up after a 10-week JavaScript journey. We dived into DOM manipulation, arrays, array methods, and even got our hands dirty with APIs.This little gem is all mine, a cool way to cap off my coding journey. Give it a whirl! 🚀🃏"
+        desc: "I recently completed a memory game project for my Hack Your Future course using HTML, CSS, and JavaScript. This game features a sleek and responsive design with two difficulty levels. I developed this game after completing a 10-week JavaScript learning journey, which involved exploring DOM manipulation, arrays, array methods, and even APIs. This project encapsulates my learnings and serves as a culmination of my coding journey. I invite you to try out the game and experience the fruits of my labor. 🚀🃏"
       },
       {
         id: 3,
