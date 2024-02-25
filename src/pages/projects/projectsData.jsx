@@ -6,6 +6,7 @@ import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
 import RecipeAppImg from '../../assets/images/project-img/recipe.png'
 import MemoryGameImg from '../../assets/images/project-img/memoryGame.png'
+import WeatherAppImg from '../../assets/images/project-img/weather-app.png'
 export const ProjectsData = [   
       {
         id: 1,
@@ -18,6 +19,15 @@ export const ProjectsData = [
       },
       {
         id: 2,
+        title: "Kraftvaerk-project",
+        img: WeatherAppImg,
+        tech : "React, Typescript, Tailwind CSS",
+        github: "https://65d7472697d34f22c798d374--weather-app-niloufar.netlify.app/",
+        date: "Feb 2024",
+        desc: "This Weather Forecast App is a React TypeScript application designed with Tailwind CSS. Its primary goal is to provide users with a convenient way to check the weather forecast for any location worldwide. The app utilizes the free API provided by OpenWeatherMap to fetch accurate and up-to-date weather data."
+      },
+      {
+        id: 3,
         title: "Memory Game" ,
         img: MemoryGameImg,
         tech : "HTML, CSS , Javascript",
@@ -26,7 +36,7 @@ export const ProjectsData = [
         desc: "I recently completed a memory game project for my Hack Your Future course using HTML, CSS, and JavaScript. This game features a sleek and responsive design with two difficulty levels. I developed this game after completing a 10-week JavaScript learning journey, which involved exploring DOM manipulation, arrays, array methods, and even APIs. This project encapsulates my learnings and serves as a culmination of my coding journey. I invite you to try out the game and experience the fruits of my labor. 🚀🃏"
       },
       {
-        id: 3,
+        id: 4,
         title: "Recipe App",
         img: RecipeAppImg,
         tech : "HTML, CSS , Javascript",
@@ -36,7 +46,7 @@ export const ProjectsData = [
       },
 
       {
-        id: 4,
+        id: 5,
         title: "Kaospilot-toolbox",
         img: kaospilotImg,
         tech : "HTML, CSS , Javascript",
@@ -45,7 +55,7 @@ export const ProjectsData = [
         desc: "For the culmination of the JavaScript course at ReDi-School, I collaborated with a dynamic team of 12 individuals to create the Kaospilot-toolbox. This multifaceted project not only deepened our understanding of JavaScript but also provided invaluable lessons in teamwork and collaborative development. From mastering the intricacies of JavaScript to honing effective communication within a group setting, the project served as a nexus of technical and interpersonal growth. Additionally, the experience of utilizing Git and GitHub for version control added a crucial layer of real-world application to our skill set. The Kaospilot-toolbox is a testament to our collective efforts, showcasing not only our JavaScript proficiency but also our ability to navigate the complexities of collaborative development and version control systems."
       },
       {
-        id: 5,
+        id: 6,
         title: "Portfolio",
         img: portfolioImg,
         tech: "HTML, CSS",
@@ -55,7 +65,7 @@ export const ProjectsData = [
 
       },
       {
-        id: 6,
+        id: 7,
         title: "Todo List",
         img: todoImg,
         tech : "HTML, CSS , Javascript",
@@ -64,7 +74,7 @@ export const ProjectsData = [
         desc:"During the JavaScript semester at ReDi-School, I undertook the task of creating a To-Do List application as a homework assignment. This project proved instrumental in enhancing my proficiency with JavaScript, particularly in manipulating the Document Object Model (DOM) and utilizing local storage. Through dynamic updates and event handling, I honed my skills in creating an interactive and user-friendly task management tool. Leveraging local storage not only added persistence to user data but also deepened my understanding of building robust web applications. This project marked a significant milestone in my JavaScript journey, showcasing practical application of acquired knowledge and setting the stage for further exploration in web development."
       },
       {
-        id: 7,
+        id: 8,
         title: "Shopping Card",
         img: shoppingCardImg,
         tech : "HTML, CSS , Javascript",
@@ -74,7 +84,7 @@ export const ProjectsData = [
 
       },
       {
-        id: 8,
+        id: 9,
         title: "Calculator App",
         img: calculatorImg,
         tech : "React.js, ES6",
