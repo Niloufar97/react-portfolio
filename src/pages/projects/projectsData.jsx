@@ -19,7 +19,7 @@ export const ProjectsData = [
       },
       {
         id: 2,
-        title: "Kraftvaerk-project",
+        title: "Weather app",
         img: WeatherAppImg,
         tech : "React, Typescript, Tailwind CSS",
         github: "https://65d7472697d34f22c798d374--weather-app-niloufar.netlify.app/",
