@@ -1,8 +1,6 @@
 import todoImg from '../../assets/images/project-img/todoList.png'
 import portfolioImg from '../../assets/images/project-img/portfolio2.png'
 import kaospilotImg from '../../assets/images/project-img/kaospilot-toolbox.png'
-import calculatorImg from '../../assets/images/project-img/calculator5.png'
-import shoppingCardImg from '../../assets/images/project-img/shopping card.png'
 import KraftvaerkImg from '../../assets/images/project-img/flown.png'
 import RecipeAppImg from '../../assets/images/project-img/recipe.png'
 import MemoryGameImg from '../../assets/images/project-img/memoryGame.png'
@@ -72,25 +70,5 @@ export const ProjectsData = [
         github: "https://github.com/Niloufar97/to-do-list",
         date: "May 2023",
         desc:"During the JavaScript semester at ReDi-School, I undertook the task of creating a To-Do List application as a homework assignment. This project proved instrumental in enhancing my proficiency with JavaScript, particularly in manipulating the Document Object Model (DOM) and utilizing local storage. Through dynamic updates and event handling, I honed my skills in creating an interactive and user-friendly task management tool. Leveraging local storage not only added persistence to user data but also deepened my understanding of building robust web applications. This project marked a significant milestone in my JavaScript journey, showcasing practical application of acquired knowledge and setting the stage for further exploration in web development."
-      },
-      {
-        id: 8,
-        title: "Shopping Card",
-        img: shoppingCardImg,
-        tech : "HTML, CSS , Javascript",
-        github: "https://github.com/Niloufar97/Restaurant-menu-shopping-cart-",
-        date: "May 2023",
-        desc:"Back at ReDi-School, I took a swing at creating a restaurant menu, but I thought, 'Why not spice things up?' So, I threw in a shopping cart, making it my first dive into JavaScript. Sure, the styling is basic, and don't even get me started on responsiveness (or the lack of it), but this project is my baby. It's where I wrestled with JS, trying to figure out the magic behind a shopping cart. Hours were spent, mistakes were made, but dang, did I learn a ton about JavaScript. It might not be the prettiest thing, but it's a symbol of my coding journey, and I wouldn't trade it for the world."
-
-      },
-      {
-        id: 9,
-        title: "Calculator App",
-        img: calculatorImg,
-        tech : "React.js, ES6",
-        github: "https://github.com/Niloufar97/Calculator-app",
-        date: "Aug 2023",
-        desc:"Enter my React journey, and voilà, the Calculator app! While it may not be a polished masterpiece, it's one of the first projects where I delved into the wonders of React.js. Through the ups and downs of wrangling with components and state, this app became my learning canvas. It's not about being the best version; it's about the time I invested to grasp the intricacies of React. Every button click and state change made this project precious in my coding saga."
-
-      },
+      }
 ]
