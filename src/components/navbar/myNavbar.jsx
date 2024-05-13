@@ -9,18 +9,19 @@ function Navigation() {
     const expand = "md";
     return (
         <>
-            <Navbar key={expand} expand={expand} className="myNav mb-3">
+            <Navbar key={expand} expand={expand} className="myNav">
               <Container>
                 <Navbar.Brand>Niloufar</Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}   style={{ color: 'white' }}/>
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${expand}`}
                   aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                   placement="end"
                 >
+
                   <Offcanvas.Header closeButton>
                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                      Offcanvas
+                      Niloufar
                     </Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
