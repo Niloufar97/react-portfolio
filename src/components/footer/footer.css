@@ -7,17 +7,13 @@
     justify-content: center;
     
 }
-.footer-row{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-}
+
 .social-media {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
-.social-media h4 , .contact-info{
+.social-media h4 {
     color: rgb(187, 187, 187);
 }
 .social-media a{
@@ -28,12 +24,8 @@
 .social-media span{
     margin-left: 1rem;
 }
-.address ,.phone ,.eamil{
-    display: flex;
-    gap: 1rem;
-    align-items: baseline;
-    margin-top: 0.1rem;
-}
-.address{
-    margin-top: 1.5rem;
+@media screen and (max-width: 500px) {
+    .social-media span{
+        display: none;
+    }
 }

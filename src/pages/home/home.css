@@ -57,6 +57,7 @@
         align-items: center;
     }
     .hero-btn{
+        margin-top: 2rem ;
         width: 8rem;
     }
     .home-content{
@@ -69,7 +70,7 @@
         height: 18rem;
     }
     .heroText{
-        margin: 3rem auto 0;
+        margin: 4rem auto 0;
     }
     .heroButtons a{
         font-size: 0.8rem;
