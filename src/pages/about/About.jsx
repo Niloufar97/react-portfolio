@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navigation from "../../components/navbar/myNavbar";
 import { Row, Col, Container } from "react-bootstrap";
 import heroImg from "../../assets/images/hero.svg";
@@ -6,6 +7,7 @@ import { EducationsInfo } from "./EducationsInfo";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Skill from "../../components/skills/Skill";
+import Footer from '../../components/footer/Footer'
 
 const rowVariant = {
   initial: { y: -30, opacity: 0 },
@@ -40,22 +42,17 @@ function About() {
               </Col>
               <Col className="about-me-text" md={6}>
                 <p className="pt-5">
-                  In early 2023, I dove headfirst into the world of frontend
-                  development, getting all excited about making cool websites. I
-                  started off by teaching myself HTML and CSS, the building
-                  blocks of the web. But I wanted more, so I signed up for a
-                  JavaScript course at ReDi School to really understand how to
-                  make interactive and snazzy web designs.
-                </p>
-                <p>
-                  I did not stop there; my hunger for learning led me to take a
-                  React course. That was when things got even more interesting,
-                  I was now crafting dynamic and responsive user interfaces like
-                  a champ. Fast forward to October 2023, and guess what? I
-                  joined Hack Your Future, a big move in my journey to becoming
-                  a pro frontend developer. It is like the changing leaves in
-                  fall, marking a significant step forward in my development
-                  adventure. Super stoked about where this journey is taking me!
+                  My name is Niloufar and I am a 27 years old. In 2022, I made
+                  the life-changing decision to relocate from Iran to Denmark to
+                  support my husband's career. I left all my achievements
+                  behind, and started a new life hoping for a better future for
+                  my family. It was challenging to make it from scratch but I'm
+                  happy to say that I am now an enthusiastic web developer with
+                  a strong affinity for JavaScript. I'm passionate about
+                  crafting modern and user-friendly web applications. As a team
+                  player, problem solver, and continuous learner, I'm always
+                  eager to take on new challenges and contribute to innovative
+                  projects.
                 </p>
               </Col>
             </Row>
@@ -106,7 +103,7 @@ function About() {
         </motion.section>
         <section className="skillbar"></section>
       </Container>
-        {/* skills----------------------------------------------------------------------------------------------- */}
+      {/* skills----------------------------------------------------------------------------------------------- */}
       <section className="my-skills">
         <Row className="pt-4">
           <div className="pageTitle mt-5">
@@ -114,14 +111,15 @@ function About() {
           </div>
         </Row>
         <Row className="my-5 skills-row">
-          <Skill tech='HTML' percentage={70}></Skill>
-          <Skill tech='CSS' percentage={65}></Skill>
-          <Skill tech='Bootstrap' percentage={70}></Skill>
-          <Skill tech='Javascript' percentage={60}></Skill>
-          <Skill tech='React' percentage={60}></Skill>
-          <Skill tech='Git' percentage={70}></Skill>
+          <Skill tech="HTML" percentage={80}></Skill>
+          <Skill tech="CSS" percentage={65}></Skill>
+          <Skill tech="Javascript" percentage={60}></Skill>
+          <Skill tech="React" percentage={60}></Skill>
+          <Skill tech="Git" percentage={70}></Skill>
+          <Skill tech="NodeJs" percentage={50}></Skill>
         </Row>
       </section>
+      <Footer/>
     </div>
   );
 }
