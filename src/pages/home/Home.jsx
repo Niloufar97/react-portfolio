@@ -24,8 +24,8 @@ function Home() {
       <Navigation />
       <Container  className="home-container py-5">
         <motion.div variants={containerVariant} initial="hidden" animate='visible'>
-        <Row className="my-5 align-items-center justify-content-center">
-          <Col className="hero-txt " lg={6} >
+        <Row className="align-items-center justify-content-center home-content">
+          <Col className="hero-txt" lg={6} >
             <div className="heroText" >
               <div className="hero-title">
                 <h2>Hello I am,</h2>
@@ -38,7 +38,7 @@ function Home() {
                 <AnimatedButton color="#534da2"  text="Download CV" className="hero-btn" />
               </a>
               <a href="https://github.com/Niloufar97" target="_blank" rel="noopener noreferrer">
-              <AnimatedButton color="#534da2"  text="My Github" className="hero-btn" />   
+                <AnimatedButton color="#534da2"  text="My Github" className="hero-btn" />   
               </a>
             </div>
           </Col>

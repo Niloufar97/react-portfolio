@@ -2,6 +2,9 @@
 .home-container{
     min-height: 80vh;
 }
+.home-content{
+    margin: 4rem;
+}
 .hero-txt{
     width: 100%;
     font-family: 'poppins';
@@ -41,18 +44,34 @@
     align-items: center;
 }
 .hero-img img{
-    width: 26rem;
-    height: 26rem;
+    width: 28rem;
+    height: 28rem;
     margin: 1rem;
     border-radius: 1rem;
     box-shadow: 19px 15px 39px 2px rgba(0,0,0,0.62);
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 500px) {
     .heroButtons{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+    .hero-btn{
+        width: 8rem;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .hero-img img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .heroText{
+        margin: 3rem auto 0;
+    }
+    .heroButtons a{
+        font-size: 0.8rem;
+    }
 }
