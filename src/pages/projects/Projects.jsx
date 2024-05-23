@@ -3,6 +3,7 @@ import Project from "../../components/myProjects/Project";
 import Navigation from "../../components/navbar/myNavbar";
 import { ProjectsData } from "./projectsData";
 import { motion } from "framer-motion";
+import Footer from "../../components/footer/Footer.jsx"
 const containerVariant = {
   hidden: {
     y: "600px",
@@ -32,6 +33,7 @@ function Projects() {
           </Row>
         </Container>
       </motion.div>
+      <Footer/>
     </div>
   );
 }
