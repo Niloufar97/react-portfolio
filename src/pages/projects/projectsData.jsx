@@ -20,7 +20,7 @@ export const ProjectsData = [
         title: "Weather app",
         img: WeatherAppImg,
         tech : "React, Typescript, Tailwind CSS",
-        github: "https://65d7472697d34f22c798d374--weather-app-niloufar.netlify.app/",
+        github: "https://weather-app-niloufar.netlify.app/",
         date: "Feb 2024",
         desc: "This Weather Forecast App is a React TypeScript application designed with Tailwind CSS. Its primary goal is to provide users with a convenient way to check the weather forecast for any location worldwide. The app utilizes the free API provided by OpenWeatherMap to fetch accurate and up-to-date weather data."
       },
