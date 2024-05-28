@@ -7,3 +7,9 @@
 .description-text{
     text-align: justify;
 }
+.project-details-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -12,7 +12,7 @@ function ProjectInfo() {
   return (
     <div>
       <Navigation />
-      <Container>
+      <Container className="project-details-page">
         <Row className="py-5 align-items-center">
           <Col className="proImg-container" md={6}>
             <img src={projectInformation.img} className="img-fluid"></img>

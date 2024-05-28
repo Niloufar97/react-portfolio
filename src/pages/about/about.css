@@ -10,7 +10,12 @@
     line-height: 2.5rem;
 }
 .about-me{
-    min-height: 90vh;
+    margin: 5rem;
+}
+.about-motion-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img-container{
     display: flex;

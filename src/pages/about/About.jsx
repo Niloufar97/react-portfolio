@@ -7,7 +7,7 @@ import { EducationsInfo } from "./EducationsInfo";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Skill from "../../components/skills/Skill";
-import Footer from '../../components/footer/Footer'
+import Footer from "../../components/footer/Footer";
 
 const rowVariant = {
   initial: { y: -30, opacity: 0 },
@@ -32,7 +32,7 @@ function About() {
               <h2>About Me</h2>
             </div>
           </Row>
-          <motion.div variants={rowVariant} initial="initial" animate="animate">
+          <motion.div variants={rowVariant} initial="initial" animate="animate" className="about-motion-div">
             <Row className="align-items-center my-2">
               <Col
                 className="about-img-container d-flex justify-content-center"
@@ -101,7 +101,7 @@ function About() {
             );
           })}
         </motion.section>
-        <section className="skillbar"></section>
+        {/* <section className="skillbar"></section> */}
       </Container>
       {/* skills----------------------------------------------------------------------------------------------- */}
       <section className="my-skills">
@@ -119,7 +119,7 @@ function About() {
           <Skill tech="NodeJs" percentage={50}></Skill>
         </Row>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
