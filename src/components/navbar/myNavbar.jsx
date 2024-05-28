@@ -9,7 +9,7 @@ function Navigation() {
     const expand = "md";
     return (
         <>
-            <Navbar key={expand} expand={expand} className="myNav mb-3">
+            <Navbar key={expand} expand={expand} className="myNav">
               <Container>
                 <Navbar.Brand>Niloufar</Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
