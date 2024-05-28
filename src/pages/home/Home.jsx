@@ -32,9 +32,7 @@ function Home() {
           <Row className="home-content">
             <Col className="hero-txt" lg={6}>
               <div className="heroText">
-                <h2>
-                  Hello I am, <span>Niloufar</span>
-                </h2>
+                <h2> Hello I am, <span>Niloufar</span></h2>
                 <h2>Junior Frontend Developer</h2>
               </div>
               <div className="heroButtons ">
